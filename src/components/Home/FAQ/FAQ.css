@@ -1,0 +1,50 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.Collapsible {
+    border-radius: 15px;
+    background-color: rgb(19, 19, 19);
+    margin: 14px;
+    padding: 15px;
+}
+
+.Collapsible__contentOuter {
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(19, 19, 19);
+
+}
+
+.Collapsible__trigger {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.Collapsible__contentInner {
+    font-size: 20px;
+     background-color: rgb(19, 19, 19);
+    color: whitesmoke;
+}
+
+.Collapsible__trigger::after {
+    content: '\f0dd';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    right: 70px;
+    text-decoration:none;
+}
+
+@media only screen and (max-width: 768px) {
+    .Collapsible__trigger::after {
+        content: '\f0dd';
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration:none;
+        
+    }
+}
+
+
