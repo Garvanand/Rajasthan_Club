@@ -7,9 +7,9 @@ const BuyTickets = () => {
   return (
     <div id="buytickets" className="flex flex-col py-10 items-center stretch-to-screen justify-center">
       <div class="text-7xl main text-center">
-        <span class="socod">Tickets</span>
+        <span class="socod">COMING SOON!!</span>
       </div>
-      <div className="flex flex-wrap mx-4">
+      {/* <div className="flex flex-wrap mx-4">
         <div className="ticketcard border-2 max-w-md max-h-md border-[#BBC2CC] p-4 lg:m-12 backdrop-blur-sm m-4 rounded-md box !bg-[#BBC2CC40] hover:!bg-[#BBC2CC60] hover:!scale-105 duration-500 flex text-white justify-center flex-col">
           <p className="text-4xl m-3 text-white">Standard</p>
           <ul className="list-disc">
@@ -42,7 +42,7 @@ const BuyTickets = () => {
             </li>
           </ul>
         </div>
-      </div>
+      // </div> */}
       <div className="text-white">
         <div class="text-3xl mt-3 mb-3 main text-center">
           <span class="socod">NOTE</span>
@@ -50,14 +50,14 @@ const BuyTickets = () => {
         <p className="ml-5 lg:ml-0 mr-3 mb-5 leading-8">
           1. Institution ID cards are mandatory for all the student participants.<br></br>
           2. Government ID proofs is mandatory for all the participants including the alumni.<br></br>
-          3. It is mandatory to carry the registration QR code.<br></br>
+          3. It is mandatory to carry the ticket in every event.<br></br>
           4. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br></br>
           5. The Management is not responsible for any loss of personal belongings.<br></br>
           6. Participants must possess valid passes for events of the designated day.<br></br>
 
         </p>
       </div>
-      <button
+      {/* <button
         type="button"
         onClick={() => window.open("http://rec.rechargefest.org/login", "_self")}
         className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max "
@@ -65,10 +65,10 @@ const BuyTickets = () => {
         <div class="main text-md">
           <span class="socod text-left">BUY TICKETS</span>
         </div>
-      </button>
+      </button> */}
       <div className="flex flex-col justify-center items-center">
-        <p className="ml-5 lg:ml-0 mr-3 mb-5 text-white mt-4">For Alumni registration : </p>
-        <button
+        {/* <p className="ml-5 lg:ml-0 mr-3 mb-5 text-white mt-4">For Alumni registration : </p> */}
+        {/* <button
           type="button"
           onClick={() => window.open("https://rajalakshmi.org/rechargealumni", "_self")}
           className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max "
@@ -76,7 +76,7 @@ const BuyTickets = () => {
           <div class="main text-md">
             <span class="socod text-left">ALUMNI TICKETS</span>
           </div>
-        </button>
+        </button> */}
       </div>
     </div>
   );
