@@ -7,7 +7,7 @@ const ProShows = () => {
       className="flex flex-col  text-white items-center px-5 stretch-to-screen mt-8"
     >
       <div className="main text-6xl md:7xl mb-5 ">
-        <span className="socod text-left">PROSHOWS</span>
+        <span className="socod text-left">HIGHLIGHT EVENTS</span>
       </div>
       <div className="proshow-cards">
         <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
@@ -23,14 +23,14 @@ const ProShows = () => {
           />
           <div className="z-10 flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-              JONITA GANDHI
+              PADHARO SA!
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              PLAYBACK SINGER
+              Advitya'24
             </h1>
 
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              DAY 1
+              (Flagship Event)
             </h1>
           </div>
         </div>
