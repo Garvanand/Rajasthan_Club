@@ -48,7 +48,7 @@ const Landing = () => {
 
   return (
     <div id="landing" ref={vantaRef} className="h-[100svh]">
-      <audio ref={audioRef} src="/welcome-audio.mp3" preload="auto" />
+      <audio ref={audioRef} src="/welcome-audio11.mp3" preload="auto" />
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white mx-3">
         <div className="flex flex-col justify-center">
           <img

@@ -40,10 +40,10 @@ const NavBar = () => {
                             <button onClick={()=>eventsNavigation("/events")} class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Events</button>
                         </li>
                         <li>
-                            <a href='#proshows' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">ProShows</a>
+                            <a href='#proshows' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Highlight</a>
                         </li>
                         <li>
-                            <a href='#spotlight' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Spotlight</a>
+                            <a href='#spotlight' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Our Founders</a>
                         </li>
                         <li>
                             <a href='#gallery' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Gallery</a>
