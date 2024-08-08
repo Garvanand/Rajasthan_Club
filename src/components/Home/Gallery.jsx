@@ -14,13 +14,13 @@ const Gallery = () => {
         <img
             src={require("../../assets/gallery-imgs/andrea1.webp")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
-            alt="Andrea Jeremiah"
+            alt="Padharo Sa"
           />
           
           <img
             src={require("../../assets/gallery-imgs/santhosh.webp")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700 object-cover"
-            alt="Santhosh Narayanan"
+            alt="Padharo Sa"
           />
         </div>
 
@@ -28,13 +28,13 @@ const Gallery = () => {
           <img
             src={require("../../assets/gallery-imgs/karthi.webp")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700 object-cover"
-            alt="Karthi"
+            alt="Padharo Sa"
           /> 
 
           <img
             src={require("../../assets/gallery-imgs/dj.webp")}
             className="w-100 shadow-lg  rounded-xl mb-4 hover:opacity-75 duration-700"
-            alt="DJ Goutham"
+            alt="Padharo Sa"
           />
         </div>
 
@@ -42,13 +42,13 @@ const Gallery = () => {
           <img
             src={require("../../assets/gallery-imgs/jagan.webp")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
-            alt="Jagan"
+            alt="Padharo Sa"
           />
 
           <img
             src={require("../../assets/gallery-imgs/bravo.webp")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
-            alt="Andrea Jeremiah"
+            alt="Padharo Sa"
           /> 
         </div>
       </div>

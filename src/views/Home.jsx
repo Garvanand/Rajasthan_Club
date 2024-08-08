@@ -5,7 +5,10 @@ import AboutRecharge from "../components/Home/AboutRecharge";
 import ProShows from "../components/Home/Proshows/ProShows";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import Spotlight from "../components/Home/Proshows/Spotlight"
+import Spotlight from "../components/Home/Proshows/Spotlight";
+import Website from "../components/Home/Proshows/Website";
+import Founders from "../components/Home/Proshows/Founders";
+import Faculty from "../components/Home/Proshows/Faculty";
 import AboutREC from "../components/Home/AboutREC";
 import FAQ from "../components/Home/FAQ/FAQ";
 
@@ -34,7 +37,11 @@ const Home = ({ isLoading, setLoading }) => {
           <AboutRecharge />
           <AboutREC />
           <ProShows />
+          <Founders />
+          <Faculty />
           <Spotlight />
+          <Website />
+          
           <Gallery />
           <FAQ/>
           {/* <Sponsors /> */}

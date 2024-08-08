@@ -2,7 +2,7 @@
   "name": "recharge23",
   "version": "0.1.0",
   "homepage": "https://rechargefest.in",
-  "description": "Official website of Recharge'23",
+  "description": "Official website of MRC",
   "dependencies": {
     "@material-tailwind/react": "^1.4.2",
     "@testing-library/jest-dom": "^5.16.5",

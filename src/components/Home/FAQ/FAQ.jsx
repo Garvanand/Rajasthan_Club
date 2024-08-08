@@ -3,26 +3,27 @@ import "./FAQ.css";
 
 const faqs = [
     {
-        title: "1. Not able to login into the website.",
-        content: `Ans: Should create account first`,
+        title: "1. What is Mahro Rajasthan Club?",
+        content: `Ans: 
+Mahro Rajasthan Club at VIT is a student organization that celebrates Rajasthani culture and traditions.`,
     }, {
         title: "2. Not able verify/booked tickets and transaction successful and mail not received.",
-        content: `Ans: Please send your queries to tickets.recharge@rajalakshmi.edu.in`,
+        content: `Ans: Please send your queries to mharorajasthanvitb@gmail.com`,
     }, {
-        title: "3. Will transport be provided?",
-        content: `Ans: Yes, transports will be provided for all 3 days. The timings and routes will be updated soon.`,
+        title: "3. What events does the club organize?",
+        content: `Ans: We organize cultural festivals, traditional dance performances, and social gatherings related to Rajasthani heritage.`,
     }, {
-        title: "4. Can other college students and school students participate?",
-        content: `Ans: Yes other college students(arts & science, medical, engineering and any degree) students can participate. Students who are 10th passed out, 11th, 12th can also participate`,
+        title: "4. Do I need to be from Rajasthan to join?",
+        content: `Ans: No, the club is open to everyone interested in learning about and celebrating Rajasthani culture.`,
     }, {
-        title: "5. Where should alumni get the ticket?",
-        content: `Ans: Here's the website for Alumini : rajalakshmi.org/rechargealumini`,
+        title: "5. How can I get involved in club activities?",
+        content: `Ans: Attend our events, participate in our activities, or volunteer to help with organizing events.`,
     }, {
-        title: "6. Can I register only for events and attend the culturals?",
-        content: `Ans: No, The pro show registration should be done to allow you inside the campus to attend the events.`,
+        title: "6. Where can I find updates about upcoming events?",
+        content: `Ans: Check our website, social media channels, or join our mailing list for the latest updates.`,
     }, {
-        title: "7. I have paid for the ticket registration, received an invoice but didn't get any ticket.",
-        content: `Ans: No problem. Forward the invoice pdf to tickets.recharge@rajalakshmi.edu.in, tickets will be sent.`,
+        title: "7. What should I do if I encounter issues accessing the club’s website?",
+        content: `Ans: Clear your browser cache, check your internet connection, or contact our tech support via https://chat.whatsapp.com/LJ9Uj8EHLDk8zuynbvV0hm .`,
     },
 ]
 

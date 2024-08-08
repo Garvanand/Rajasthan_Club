@@ -18,7 +18,7 @@ const ProShows = () => {
           />
           <img
             src={require("../../../assets/jonita.webp")}
-            alt="Jonita"
+            alt="Padharo Sa"
             className="z-0 rounded-xl"
           />
           <div className="z-10 flex flex-col absolute my-4">
@@ -47,14 +47,14 @@ const ProShows = () => {
           />
           <div className="z-10 flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-              MASALA COFFEE
+              Rangisthan
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              MUSIC BAND
+              A Heritage Carnival
             </h1>
 
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              DAY 2
+              (April 2024)
             </h1>
           </div>
         </div>
@@ -71,16 +71,17 @@ const ProShows = () => {
           />
           <div className="z-10 flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-              SIANA CATHERINE
+              UPCOMING EVENT
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              SUNBURN DJ
+              BE READY!!
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              DAY 3
+              (September 2024)
             </h1>
           </div>
         </div>
+        
       </div>
     </div>
   );
