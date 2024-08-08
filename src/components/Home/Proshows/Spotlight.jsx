@@ -20,7 +20,7 @@ const Spotlight = () => {
           />
           <div className="z-10  flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-              Yu
+              HARSHVARDHAN SINGH
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
               PRESIDENT
@@ -84,6 +84,46 @@ const Spotlight = () => {
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
             STUDENT-COORDINATOR
+            </h1>
+          </div>
+        </div>
+        <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
+          <img
+            className="-z-10 absolute proshows-bg rounded-xl"
+            alt="background-jonita"
+            src={require("../../../assets/bg-2.webp")}
+          />
+          <img
+            src={require("../../../assets/palak.webp")}
+            alt="GVM"
+            className="z-0 rounded-xl"
+          />
+          <div className="z-10  flex flex-col absolute my-4">
+            <h1 className="  text-3xl text-center font-bold tracking-widest content">
+            PALAK DIWEDI
+            </h1>
+            <h1 className="  text-md text-center font-bold tracking-widest content">
+            SECRETARY
+            </h1>
+          </div>
+        </div>
+        <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
+          <img
+            className="-z-10 absolute proshows-bg rounded-xl"
+            alt="background-jonita"
+            src={require("../../../assets/bg-2.webp")}
+          />
+          <img
+            src={require("../../../assets/amrita.webp")}
+            alt="GVM"
+            className="z-0 rounded-xl"
+          />
+          <div className="z-10  flex flex-col absolute my-4">
+            <h1 className="  text-3xl text-center font-bold tracking-widest content">
+            AMRITA NIRBHEEK
+            </h1>
+            <h1 className="  text-md text-center font-bold tracking-widest content">
+            JOINT SECRETARY
             </h1>
           </div>
         </div>
