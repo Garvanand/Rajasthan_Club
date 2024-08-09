@@ -11,7 +11,7 @@ const Faculty = () => {
             <img
               className="-z-10 absolute proshows-bg rounded-xl"
               alt="background-raina"
-              src={require("../../../assets/bg-2.webp")}
+              src={require("../../../assets/bg-1.webp")}
             />
             <img
               src={require("../../../assets/rajpoot.webp")}

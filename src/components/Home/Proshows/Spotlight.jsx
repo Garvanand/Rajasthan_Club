@@ -11,7 +11,7 @@ const Spotlight = () => {
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
             alt="background-raina"
-            src={require("../../../assets/bg-2.webp")}
+            src={require("../../../assets/bg-1.webp")}
           />
           <img
             src={require("../../../assets/raina-transformed.webp")}
@@ -31,7 +31,7 @@ const Spotlight = () => {
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
             alt="background-jonita"
-            src={require("../../../assets/bg-2.webp")}
+            src={require("../../../assets/bg-1.webp")}
           />
           <img
             src={require("../../../assets/GVM.webp")}
@@ -51,7 +51,7 @@ const Spotlight = () => {
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
             alt="background-jonita"
-            src={require("../../../assets/bg-2.webp")}
+            src={require("../../../assets/bg-1.webp")}
           />
           <img
             src={require("../../../assets/jagan-1.webp")}
