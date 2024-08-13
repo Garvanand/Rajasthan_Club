@@ -25,7 +25,7 @@ const AboutREC = () => {
         </div>
 
         <p className="text-lg shadow-inner leading-loose">
-          Warm greetings from Mahro Rajasthan Club of VIT! As we celebrate the vibrant festival of Hariyali Teej, we wish you all a joyous and prosperous occasion filled with the lush green hues of happiness and the refreshing spirit of togetherness. May this special day bring a wave of prosperity and positivity to your life. Enjoy the festivities and have a wonderful time with your loved ones!
+          Warm greetings from Mharo Rajasthan Club of VIT! As we celebrate the vibrant festival of Hariyali Teej, we wish you all a joyous and prosperous occasion filled with the lush green hues of happiness and the refreshing spirit of togetherness. May this special day bring a wave of prosperity and positivity to your life. Enjoy the festivities and have a wonderful time with your loved ones!
         </p>
         {/* Uncomment and use if you want a button */}
         {/* <button
