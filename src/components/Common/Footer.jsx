@@ -16,7 +16,7 @@ const Footer = ({ path }) => {
         />
 
         <p className="whitespace-normal">
-          Mahro Rajasthan Club,VIT Bhopal,Sehore,MP,India
+          Mharo Rajasthan Club,VIT Bhopal,Sehore,MP,India
           -466114.
         </p>
         <div className="flex flex-row gap-x-0 items-center">

@@ -14,11 +14,11 @@ const AboutRecharge = () => {
         className="basis-1/2 order-last lg:order-first flex flex-col gap-y-5"
       >
         <div class="main text-5xl">
-          <span class="socod text-left">About Mahro Rajasthan Club</span>
+          <span class="socod text-left">About Mharo Rajasthan Club</span>
         </div>
 
         <p className=" text-lg  shadow-inner leading-loose">
-        At VIT University, the Mahro Rajasthan Club is one of the student-run cultural clubs. Its purpose is to celebrate and promote Rajasthani culture among the student body. The club organizes a variety of events, including cultural performances, traditional festivals, and workshops that showcase Rajasthani music, dance, art, and cuisine.
+        At VIT University, the Mharo Rajasthan Club is one of the student-run cultural clubs. Its purpose is to celebrate and promote Rajasthani culture among the student body. The club organizes a variety of events, including cultural performances, traditional festivals, and workshops that showcase Rajasthani music, dance, art, and cuisine.
 
 The club also serves as a platform for students from Rajasthan to connect with their heritage and share it with others on campus. They may host talks or discussions about Rajasthani history and traditions, and they often participate in university-wide cultural festivals and activities.
         </p>

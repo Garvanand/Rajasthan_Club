@@ -100,7 +100,7 @@ const Spotlight = () => {
           />
           <div className="z-10  flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-            PALAK DIWEDI
+            PALAK DWIVEDI
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
             SECRETARY
