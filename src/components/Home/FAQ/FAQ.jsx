@@ -3,9 +3,9 @@ import "./FAQ.css";
 
 const faqs = [
     {
-        title: "1. What is Mahro Rajasthan Club?",
+        title: "1. What is Mharo Rajasthan Club?",
         content: `Ans: 
-Mahro Rajasthan Club at VIT is a student organization that celebrates Rajasthani culture and traditions.`,
+Mharo Rajasthan Club at VIT is a student organization that celebrates Rajasthani culture and traditions.`,
     }, {
         title: "2. Not able verify/booked tickets and transaction successful and mail not received.",
         content: `Ans: Please send your queries to mharorajasthanvitb@gmail.com`,

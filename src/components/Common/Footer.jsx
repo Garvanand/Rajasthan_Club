@@ -167,7 +167,7 @@ const Footer = ({ path }) => {
             </div>
           </div>
           </p>
-          <p className="text-white font-semibold">© Mahro Rajasthan Club. All Rights Reserved. Made by <a href="https://garvanand-github-io-git-main-garvanand.vercel.app/   " target="_blank">Garv Anand</a></p>
+          <p className="text-white font-semibold">© Mharo Rajasthan Club. All Rights Reserved. Made by <a href="https://garvanand-github-io-git-main-garvanand.vercel.app/   " target="_blank">Garv Anand</a></p>
           </div>
             
         </div>
