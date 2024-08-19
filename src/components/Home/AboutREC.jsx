@@ -25,7 +25,7 @@ const AboutREC = () => {
         </div>
 
         <p className="text-lg shadow-inner leading-loose">
-          Warm greetings from Mahro Rajasthan Club of VIT! As we celebrate the vibrant festival of Hariyali Teej, we wish you all a joyous and prosperous occasion filled with the lush green hues of happiness and the refreshing spirit of togetherness. May this special day bring a wave of prosperity and positivity to your life. Enjoy the festivities and have a wonderful time with your loved ones!
+        Warm Rakshabandhan wishes from Mharo Rajasthan Club! As we celebrate this special day, we embrace the vibrant colors and rich traditions of Rajasthan, reflecting the deep bonds of love and protection. May your Rakhi be adorned with the same warmth and affection that defines our beautiful culture. Here’s to a day filled with joy, cherished moments, and the enduring spirit of sibling love. Happy Rakshabandhan from our Rajasthani family to yours!
         </p>
         {/* Uncomment and use if you want a button */}
         {/* <button
