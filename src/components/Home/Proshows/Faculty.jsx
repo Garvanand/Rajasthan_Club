@@ -1,4 +1,4 @@
-/* import "./Proshow.css"; */
+ import "./Proshow.css"; 
 
 const Faculty = () => {
     return (
