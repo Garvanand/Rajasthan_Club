@@ -1,5 +1,5 @@
 .proshow-cards {
-  height: 80vh;
+  height: auto;
   width: 100%;
   display: flex;
   box-sizing: border-box;
@@ -44,12 +44,17 @@
   .proshow-card:hover {
     flex-basis: 5%;
   }
+  #faculty span{
+    font-size: smaller;
+  }
 }
 @media only screen and (min-device-width: 600px){
   .proshow-cards {
     flex-direction: row;
+    height: 80vh;         
   }
   .proshow-card:hover {
     flex-basis: 5%;
   }
+
 }
