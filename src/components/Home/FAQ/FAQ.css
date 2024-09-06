@@ -5,6 +5,11 @@
     background-color: rgb(19, 19, 19);
     margin: 14px;
     padding: 15px;
+
+    
+    width: 100%;
+    
+    
 }
 
 .Collapsible__contentOuter {
@@ -36,7 +41,7 @@
     text-decoration:none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .Collapsible__trigger::after {
         content: '\f0dd';
         font-family: FontAwesome;
@@ -45,6 +50,18 @@
         text-decoration:none;
         
     }
+    
+  
 }
+.dropdown{
+    width: 100%;
+}
+#faq{
+    width: auto;
+}
+
+
+
+
 
 
