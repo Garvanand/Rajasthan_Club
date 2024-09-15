@@ -19,7 +19,7 @@ const Spotlight = () => {
             className="z-0 rounded-xl"
           />
           <div className="z-10  flex flex-col absolute my-4">
-            <h1 className="  text-3xl text-center font-bold tracking-widest content">
+            <h1 className="  text-2xl text-center font-bold tracking-widest content">
               HARSHVARDHAN SINGH
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
