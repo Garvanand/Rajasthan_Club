@@ -33,7 +33,7 @@ const FAQ = () => {
     return (
         <div id="faq" className='text-white flex flex-col justify-center items-center m-12'>
             <div class="main text-6xl justify-center">
-                <span class="socod">FAQ</span>
+                <span class="font-bold text-5xl capitalize text-white">FAQ</span>
             </div>
             <div className='dropdown'>
             {faqs.map((data) => {
@@ -50,3 +50,4 @@ const FAQ = () => {
 }
 
 export default FAQ;
+
