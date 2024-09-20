@@ -12,7 +12,8 @@ const AboutREC = () => {
         className="basis-1/2 flex justify-center items-center video-border max-w-fit max-h-fit my-8"
       >
         <img
-          className="shadow-2xl rounded-xl z-10 neon-border"
+          className="shadow-[0_0_20px_10px_orange]"
+
           id="about-img"
           src={require("../../assets/gallery-imgs/rec7.gif")} // Update this line with the GIF file path
           alt="About REC"
@@ -21,7 +22,7 @@ const AboutREC = () => {
 
       <div id="right" className="basis-1/2 flex flex-col gap-y-5">
         <div className="main text-5xl">
-          <span className="socod text-left">Fresh Updates!</span>
+          <span className="font-bold text-5xl capitalize text-white">Fresh Updates!</span>
         </div>
 
         <p className="text-lg shadow-inner leading-loose">
@@ -48,3 +49,4 @@ const AboutREC = () => {
 };
 
 export default AboutREC;
+
