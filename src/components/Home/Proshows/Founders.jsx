@@ -4,7 +4,7 @@ const Founders = () => {
     return (
       <div id="founders" className="flex flex-col  text-white items-center px-5 stretch-to-screen mt-8">
         <div className="main text-6xl md:7xl mb-5 text-white">
-          <span className="socod text-left">OUR FOUNDERS</span>
+          <span className="font-bold text-5xl capitalize text-white">OUR FOUNDERS</span>
         </div>
         <div className="proshow-cards">
         <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
@@ -61,4 +61,8 @@ const Founders = () => {
   
   
   export default Founders;
+  
+
+  
+
   
