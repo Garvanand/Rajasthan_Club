@@ -6,15 +6,27 @@ const AboutRecharge = () => {
 
   return (
     <div
+    style={{
+      
+      textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+      
+      
+
+    }}
+    
       id="about-recharge"
-      className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-8   stretch-to-screen text-white p-10 lg:gap-x-20 "
+      className=" flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-8   stretch-to-screen text-white p-10 lg:gap-x-20 bg-center font-bold text-2xl capitalize text-white  "
+      
     >
       <div
         id="left"
         className="basis-1/2 order-last lg:order-first flex flex-col gap-y-5"
       >
-        <div class="main text-5xl">
-          <span class="socod text-left">About Mharo Rajasthan Club</span>
+        <div class="main text-5xl"
+        style={{
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' // Add shadow to make it pop against the background
+        }}>
+          <span className="font-bold text-5xl capitalize text-white ">About Mharo Rajasthan Club</span>
         </div>
 
         <p className=" text-lg  shadow-inner leading-loose">
@@ -25,17 +37,18 @@ The club also serves as a platform for students from Rajasthan to connect with t
         <button
           type="button"
           onClick={() => navigate("/about-recharge")}
-          className="px-4 py-2 text-white hover:text-white hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max"
+          className="px-4 py-2 text-white bg-[#0066ff] duration-200 rounded-md font-medium max-w-max "
+
         >
           <div class="main text-md">
-            <span class="socod text-left">Show More</span>
+            <span className="font-bold">Show More</span>
           </div>
         </button>
       </div>
 
       <div id="right" className="basis-1/2 flex justify-center items-center video-border max-h-fit max-w-fit my-8">
         <video
-          className="shadow-2xl rounded-xl z-10 neon-border "
+         className="shadow-[0_0_20px_10px_orange]"
           loop
           autostart
           autoPlay
