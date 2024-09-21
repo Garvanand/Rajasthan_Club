@@ -24,7 +24,8 @@ const Landing = () => {
     <div 
       id="landing" 
       className="h-[100svh] bg-cover bg-center" 
-      style={{ backgroundImage: `url(${require('../../assets/img_7552-copy.webp')})` }}
+      style={{ backgroundImage: `url(/img_7552-copy.webp)` }}
+
     >
       <audio ref={audioRef} src="/welcome-audio11.mp3" preload="auto" />
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-black mx-3">
