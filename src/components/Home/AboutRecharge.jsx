@@ -15,7 +15,7 @@ const AboutRecharge = () => {
     }}
     
       id="about-recharge"
-      className=" flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-8   stretch-to-screen text-white p-10 lg:gap-x-20 bg-center font-bold text-2xl capitalize text-white  "
+      className=" flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-8   stretch-to-screen text-white p-10 lg:gap-x-20 bg-center font-bold text-2xl capitalize "
       
     >
       <div
