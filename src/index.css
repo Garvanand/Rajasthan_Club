@@ -18,6 +18,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;700;800;900;1000&display=swap');
 
+#about-recharge{
+  background-image: url('./assets/desert.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+#about-rec{
+  background-size: cover;
+  background-image: url('./assets/lake1.png');
+}
+
 .container {
   padding: 50px 0px;
   display: flex;
