@@ -5,8 +5,15 @@ const AboutREC = () => {
   return (
     <div
       id="about-rec"
-      className="flex flex-col justify-center lg:flex-row items-center lg:items-center gap-y-8 stretch-to-screen text-white p-10 lg:gap-x-20"
+      className=" relative flex flex-col justify-center lg:flex-row items-center lg:items-center gap-y-8 stretch-to-screen text-white p-10 lg:gap-x-20"
     >
+      <div className="absolute inset-0" style={{
+      backgroundImage: 'url(/lake1.png)',
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      zIndex: "-1",
+      filter: "blur(8px)",
+      }}/>
       <div
         id="left"
         className="basis-1/2 flex justify-center items-center video-border max-w-fit max-h-fit my-8"

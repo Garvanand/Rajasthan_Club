@@ -4,8 +4,15 @@ const ProShows = () => {
   return (
     <div
       id="proshows"
-      className="flex flex-col  text-white items-center px-5 stretch-to-screen pt-8"
+      className="relative flex flex-col  text-white items-center px-5 stretch-to-screen pt-8"
     >
+      <div className="absolute inset-0" style={{
+      backgroundImage: 'url(/garba.jpg)',
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      zIndex: "-1",
+      filter: "blur(8px)",
+      }}/>
       <div className="main text-6xl md:7xl mb-5 ">
         <span className="font-bold text-5xl capitalize text-white">HIGHLIGHT EVENTS</span>
       </div>

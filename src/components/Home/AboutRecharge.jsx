@@ -5,23 +5,16 @@ const AboutRecharge = () => {
   const navigate = useNavigate();
 
   return (
-    <div
-    style={{
-      
-      textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
-      
-      
-
-    }}
-    
-      id="about-recharge"
-      className=" flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-8   stretch-to-screen text-white p-10 lg:gap-x-20 bg-center font-bold text-2xl capitalize "
-      
-    >
-      <div
-        id="left"
-        className="basis-1/2 order-last lg:order-first flex flex-col gap-y-5"
-      >
+    <div style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',}} id="about-recharge"className=" relative flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-8   stretch-to-screen text-white p-10 lg:gap-x-20 bg-center font-bold text-2xl capitalize " >
+      <div className="absolute inset-0" style={{
+      backgroundImage: 'url(/desert.jpg)',
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      zIndex: "-1",
+      filter: "blur(8px)",
+      }}/>
+      <div id="left"
+        className="basis-1/2 order-last lg:order-first flex flex-col gap-y-5">
         <div class="main text-5xl"
         style={{
           textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' // Add shadow to make it pop against the background
