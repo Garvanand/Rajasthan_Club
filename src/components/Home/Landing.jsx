@@ -24,7 +24,7 @@ const Landing = () => {
     <div 
       id="landing" 
       className="h-[100svh] bg-cover bg-center" 
-      style={{ backgroundImage: `url(/img_7552-copy.webp)` }}
+      // style={{ backgroundImage: `url("https://ibb.co/4VRwfGC")` }}
 
     >
       <audio ref={audioRef} src="/welcome-audio11.mp3" preload="auto" />
