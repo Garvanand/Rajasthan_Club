@@ -1,8 +1,16 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import './css/style.css'; // Make sure to import your styles
 
 const BuyTickets = () => {
+  const [showForm, setShowForm] = useState(false);
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    const timer = setTimeout(() => {
+      setShowForm(true);
+    }, 1000); // Simulated loading delay (can adjust as needed)
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -10,20 +18,28 @@ const BuyTickets = () => {
       <div className="text-7xl main text-center">
         <span className="socod">BOOK YOUR TICKETS!!</span>
       </div>
+
       <div className="w-full max-w-xl my-10">
-        <iframe 
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfH7pbPwrRDgCAs4cbgWIlN7-pTV9g16q3vOo7z8qj0FMWoKA/closedform"
-          width="100%"
-          height="500"
-          frameBorder="0"
-          marginHeight="1"
-          marginWidth="0"
-          title="Buy Tickets Form"
-        >
-          
-        </iframe>
+        {showForm ? (
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfH7pbPwrRDgCAs4cbgWIlN7-pTV9g16q3vOo7z8qj0FMWoKA/closedform"
+            width="100%"
+            height="500"
+            frameBorder="0"
+            marginHeight="1"
+            marginWidth="0"
+            title="Buy Tickets Form"
+            loading="lazy"
+          />
+        ) : (
+          <div className="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div> // Show loader while loading
+        )}
       </div>
-      
+
       <div className="text-white">
         <div className="text-3xl mt-3 mb-3 main text-center">
           <span className="socod">NOTE</span>
@@ -37,10 +53,6 @@ const BuyTickets = () => {
           6. Participants must possess valid passes for events on the designated day.<br />
         </p>
       </div>
-
-      
-      
-
     </div>
   );
 };
