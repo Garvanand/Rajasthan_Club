@@ -29,6 +29,37 @@
         "upload": false,
         "day": 2,
         "registrations": 0
+    },
+    {
+        "id": 1,
+        "name": "dan3ce",
+        "category_id": 1,
+        "category": "Arts",
+        "description": "The Flagship event full of fun with diffrent small events.",
+        "short_description": "enjoy the true essence of rajasthani culture with core things, games and other stuff.",
+        "image_url": "",
+        "name_of_incharge1": " ----",
+        "phone_of_incharge1": "-----",
+        "name_of_incharge2": "------ ",
+        "phone_of_incharge2": "------",
+        "name_of_incharge3": "-----",
+        "phone_of_incharge3": "---",
+        "contact_mail": "mharorajasthanvitb@gmail.com",
+        "prize": "FUN",
+        "time_of_event": "9:00 AM - 4:00 PM",
+        "duration_in_hours": "5.0",
+        "venue": "Parking Area ",
+        "name_of_hosting_club": "",
+        "rules": "This is an individual event.",
+        "selection": "Google Forms",
+        "team_event": false,
+        "team_min": 1,
+        "team_max": 1,
+        "pay": 50,
+        "max_reg": 40,
+        "upload": false,
+        "day": 2,
+        "registrations": 0
     }
     
 
