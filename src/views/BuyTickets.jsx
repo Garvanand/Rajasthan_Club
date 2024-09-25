@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import './css/style.css'; // Make sure to import your styles
+import Loading from './Loading'; // Adjust the path if needed
 
 const BuyTickets = () => {
   const [showForm, setShowForm] = useState(false);
@@ -32,11 +33,7 @@ const BuyTickets = () => {
             loading="lazy"
           />
         ) : (
-          <div className="loader">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div> // Show loader while loading
+          <Loading /> // Use the Loading component while the form is loading
         )}
       </div>
 
