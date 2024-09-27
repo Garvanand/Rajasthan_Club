@@ -17,7 +17,9 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;700;800;900;1000&display=swap');
-
+#landing{
+  background-image: url('https://i.postimg.cc/R0pB0KYm/img-7552-copy.jpg');
+}
 #about-recharge{
   background-image: url('./assets/desert.jpg');
   background-repeat: no-repeat;
