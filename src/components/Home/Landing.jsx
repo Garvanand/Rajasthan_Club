@@ -63,7 +63,7 @@ const Landing = () => {
   Since 2023
 </h2>
           <div className="flex flex-col justify-center items-center">
-          <button
+          {/* <button
   type="button"
   onClick={() => navigate("/events")}
   className="px-6 py-3 text-white bg-[#ff6600] hover:bg-[#ff8533] duration-200 rounded-lg font-semibold shadow-lg hover:shadow-xl hover:duration-500"
@@ -71,7 +71,7 @@ const Landing = () => {
   <div className="main text-lg">
     <span className="font-bold capitalize text-white">EXPLORE EVENTS</span>
   </div>
-</button>
+</button> */}
 
 <button
   type="button"

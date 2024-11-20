@@ -16,27 +16,28 @@ const BuyTickets = () => {
 
   return (
     <div id="buytickets" className="flex flex-col py-10 items-center stretch-to-screen justify-center">
-      <div className="text-7xl main text-center">
+      <div className="text-7xl main text-center mb-8">
         <span className="socod">BOOK YOUR TICKETS!!</span>
       </div>
 
-      <div className="w-full max-w-xl my-10">
+      <div className="w-full max-w-xl my-10 flex justify-center items-center h-screen">
         {showForm ? (
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfH7pbPwrRDgCAs4cbgWIlN7-pTV9g16q3vOo7z8qj0FMWoKA/closedform"
-            width="100%"
-            height="500"
+            src="https://lu.ma/embed/event/evt-WuZ69KD8GRCr7lq/simple"
+            width="700"
+            height="850"
             frameBorder="0"
-            marginHeight="1"
-            marginWidth="0"
+            style={{ border: "3px solid #bfcbda88", borderRadius: "2px" }}
+            allowFullScreen
+            aria-hidden="false"
+            tabIndex="0"
             title="Buy Tickets Form"
-            loading="lazy"
           />
         ) : (
           <Loading /> // Use the Loading component while the form is loading
         )}
       </div>
-
+<br></br>
       <div className="text-white">
         <div className="text-3xl mt-3 mb-3 main text-center">
           <span className="socod">NOTE</span>
