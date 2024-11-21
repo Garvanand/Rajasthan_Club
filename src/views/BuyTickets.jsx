@@ -60,19 +60,18 @@ const BuyTickets = () => {
             <p className="note-text">
               1. Institution ID cards are mandatory for all the student participants.<br />
               2. Tickets will be sent and approved a day before the event.<br />
-              2. It is mandatory to carry the ticket to every event.<br />
-              3. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br />
-              4. The Management is not responsible for any loss of personal belongings.<br />
-              5. Participants must possess valid passes for events on the designated day.<br />
-              
-            </p>
-            <p>
-              STUDNET COORDINATORS:
+              3. It is mandatory to carry the ticket to every event.<br />
+              4. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br />
+              5. The Management is not responsible for any loss of personal belongings.<br />
+              6. Participants must possess valid passes for events on the designated day.<br />
+            </p><br />
+           <b> <p>
+              STUDENT COORDINATORS:
               <br />
-              Dheeraj Saraswat(6367510083)
+              Dheeraj Saraswat (6367510083)
               <br />
-              Jitendra Bhaskar(8588265520)
-            </p>
+              Jitendra Bhaskar (8588265520)
+            </p></b>
           </div>
         </div>
       </div>

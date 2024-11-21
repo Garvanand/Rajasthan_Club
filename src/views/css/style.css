@@ -1,123 +1,127 @@
-/* Main container */
+/* General styles */
 .buy-tickets-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 1rem;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-/* Heading */
-.socod {
+.main {
+  font-family: 'Arial', sans-serif;
   font-weight: bold;
-  color: #bfcbda;
 }
 
-/* Flex container for iframe and QR code + Notes */
+.socod {
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+/* Flex container styles */
 .flex-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 2rem;
   flex-wrap: wrap;
-  max-width: 1200px;
-  width: 100%;
-  margin-top: 3rem;
+  gap: 20px;
+  /* Ensure this stays flexible */
 }
 
 /* Iframe container */
 .iframe-container {
-  flex: 1 1 650px;
-  max-width: 650px;
-  min-width: 650px; /* Keep the iframe width consistent */
+  flex: 1;
+  min-width: 300px; /* Prevents iframe from getting too narrow */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-/* Right container (QR code and Notes) */
-.right-container {
-  flex: 1 1 350px;
-  max-width: 350px;
-  min-width: 300px;
-  text-align: center;
-  margin-top: 1rem;
-}
-
-/* QR code styling */
-.qr-code-container img {
+.iframe-container iframe {
   width: 100%;
-  max-width: 250px; /* Control QR code size */
+  max-width: 90vw; /* Ensure it takes up less space on small screens */
+  height: 70vh; /* Use viewport height to adjust iframe's height */
+  border-radius: 8px;
+  border: 3px solid #bfcbda88;
+  object-fit: contain; /* Ensures the iframe content doesn't overflow */
+}
+
+/* Right container with QR Code and Notes */
+.right-container {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.qr-code-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.qr-code-container img {
+  width: 70%; /* Make the QR code smaller for smaller screens */
+  max-width: 150px; /* Limit size for small screens */
   height: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Note section */
 .note-section {
-  margin-top: 2rem;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .note-text {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: #fff;
 }
 
-/* Responsive adjustments */
-@media (max-width: 1024px) {
+/* Text size adjustments */
+.text-6xl {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Mobile-specific tweaks */
+@media (max-width: 768px) {
   .flex-container {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    padding: 10px;
   }
 
-  .iframe-container,
-  .right-container {
-    width: 100%;
+  .iframe-container {
+    margin-bottom: 6px;
     max-width: 100%;
   }
 
-  .note-text {
-    font-size: 0.7rem;
+  .iframe-container iframe {
+    max-width: 100%;
+    height: 70vh; /* Adjust iframe to 50% of the viewport height */
   }
 
   .qr-code-container img {
-    width: 200px; /* Make QR smaller on smaller screens */
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
   }
-}
 
-@media (max-width: 868px) {
+  .note-section {
+    font-size: 14px;
+  }
+
   .note-text {
-    font-size: 0.8rem;
+    font-size: 14px;
   }
 
-  .qr-code-container img {
-    width: 180px;
-  }
-}
-
-@media (max-width: 480px) {
   .text-7xl {
     font-size: 2.5rem;
   }
 
-  .socod {
+  .text-6xl {
     font-size: 1.5rem;
   }
 
-  .iframe-container {
-    width: 100%;
-    height: auto;
+  .socod {
+    font-size: 1.25rem;
   }
-
-  .right-container {
-    text-align: right;
-  }
-
-  .note-text {
-    font-size: 0.875rem;  /* More readable, slightly larger than default text */
-    line-height: 1.4;     /* Adds space between lines for better readability */
-    color: #333;          /* Dark grey for better contrast */
-    font-family: Arial, sans-serif; /* Use a clean, web-safe font */
-    margin: 0;            /* Removes unnecessary margin if any */
-  }
-  
 }
