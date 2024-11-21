@@ -26,7 +26,7 @@ const BuyTickets = () => {
         <div className="iframe-container">
           {showForm ? (
             <iframe
-              src="https://lu.ma/embed/event/evt-DAgYABywtfG4NOO/simple"
+              src="https://lu.ma/embed/event/evt-bK8zq68992Cmvhq/simple"
               width="650"
               height="850"
               frameBorder="0"
