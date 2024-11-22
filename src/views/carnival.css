@@ -24,15 +24,15 @@
     animation: float 6s ease-in-out infinite;
     border-radius: 50%;
     opacity: 0.7;
-    z-index: 1; /* Set z-index to ensure they stay behind other content */
+    z-index: 1;
 }
 
 .floating-element.square {
-    border-radius: 0; /* Makes it a square */
+    border-radius: 0;
 }
 
 .floating-element.circle {
-    border-radius: 50%; /* Makes it a circle */
+    border-radius: 50%;
 }
 
 /* Color theme for Rajasthan */
@@ -81,7 +81,7 @@
     backface-visibility: hidden;
     border-radius: 0.5rem;
     overflow: hidden;
-    top: 0; /* Ensure it stays within the card */
+    top: 0;
     left: 0;
 }
 
@@ -119,49 +119,46 @@
     color: white;
 }
 .note-box {
-    /* background-color: rgb(227, 93, 59);  Light yellow background */
-    color: #333; /* Dark text for better visibility */
-    border: 2px solid #ffeb3b; /* Yellow border */
-    border-radius: 8px; /* Rounded corners */
-    padding: 16px; /* Space inside the box */
-    /* margin: 20px auto; Center the box horizontally */
-    max-width: 700px; /* Set a max width for better layout */
+    color: #333;
+    border: 2px solid #ffeb3b;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 700px;
     font-family: Arial, sans-serif;
-    box-shadow: 0 0 10px 4px rgba(128, 0, 0, 0.8); /* Subtle shadow for better visibility */
+    box-shadow: 0 0 10px 4px rgba(128, 0, 0, 0.8);
 }
 .note-box h3 {
-    /* color: #800000; Maroon text */
-    text-shadow: 0 0 10px rgba(128, 0, 0, 0.8); /* Glowing maroon effect */
-    margin-bottom: 10px; /* Space below the heading */
-    font-size: 1.5rem; /* Slightly larger font size for emphasis */
+    text-shadow: 0 0 10px rgba(128, 0, 0, 0.8); 
+    margin-bottom: 10px; 
+    font-size: 1.5rem;
 }
 .note-box:hover {
-    box-shadow: 0 0 15px 6px rgba(255, 223, 0, 0.8); /* Slightly stronger yellow glow on hover */
+    box-shadow: 0 0 15px 6px rgba(255, 223, 0, 0.8);
 }
 @keyframes sway {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     25% {
-      transform: rotate(5deg);
+        transform: rotate(5deg);
     }
     50% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     75% {
-      transform: rotate(-5deg);
+        transform: rotate(-5deg);
     }
     100% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  }
-  
-  .flag-animation {
+}
+
+.flag-animation {
     animation: sway 3s ease-in-out infinite;
     transform-origin: top center; /* Swaying effect originates from the top */
-  }
-  
-  .flag-hover:hover {
+}
+
+.flag-hover:hover {
     transform: scale(1.1) rotate(6deg); /* Hover interaction */
     transition: transform 0.3s ease-in-out;
-  }
+}
