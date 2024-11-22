@@ -118,3 +118,51 @@
     padding: 1rem;
     color: white;
 }
+.note-box {
+    background-color: rgb(227, 93, 59);  /* Light yellow background */
+    color: #333; /* Dark text for better visibility */
+    border: 2px solid #ffeb3b; /* Yellow border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Space inside the box */
+    margin: 20px auto; /* Center the box horizontally */
+    max-width: 500px; /* Set a max width for better layout */
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px 4px rgba(128, 0, 0, 0.8); /* Subtle shadow for better visibility */
+   
+}
+.note-box h3 {
+    color: #800000; /* Maroon text */
+    text-shadow: 0 0 10px rgba(128, 0, 0, 0.8); /* Glowing maroon effect */
+    margin-bottom: 10px; /* Space below the heading */
+    font-size: 1.5rem; /* Slightly larger font size for emphasis */
+}
+.note-box:hover {
+    box-shadow: 0 0 15px 6px rgba(255, 223, 0, 0.8); /* Slightly stronger yellow glow on hover */
+}
+@keyframes sway {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .flag-animation {
+    animation: sway 3s ease-in-out infinite;
+    transform-origin: top center; /* Swaying effect originates from the top */
+  }
+  
+  .flag-hover:hover {
+    transform: scale(1.1) rotate(6deg); /* Hover interaction */
+    transition: transform 0.3s ease-in-out;
+  }
