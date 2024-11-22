@@ -185,6 +185,14 @@ const Carnival = () => {
                             <li>9. <span className="font-bold">Event Timings:</span> Participants must arrive on time for all events. Latecomers will not be permitted to join the event once it has started.</li>
                             <li>10. Kindly cooperate with discipline committee members and the club members for a seamless experience.</li>
                         </ul>
+                        <div className="mt-5">
+                            <ul>
+                                <li className="font-bold">
+                              For technical queries,contact Garv Anand - +91 80541 82892
+                                </li>
+                                <li className="font-bold">For any other issues,contact Jitendra - +91 95882 65520, Dheeraj - +91 6367 510 083 </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
