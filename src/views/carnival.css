@@ -5,6 +5,23 @@
     font-style: normal;
 }
 
+.floating-animation {
+    animation: floatcamel 4s ease-in-out infinite;
+}
+
+@keyframes floatcamel {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
 /* Keyframes for floating effect */
 @keyframes float {
     0% {
@@ -16,40 +33,6 @@
     100% {
         transform: translateY(0) rotate(180deg);
     }
-}
-
-/* Floating elements' random movement */
-.floating-element {
-    position: absolute;
-    animation: float 6s ease-in-out infinite;
-    border-radius: 50%;
-    opacity: 0.7;
-    z-index: 1;
-}
-
-.floating-element.square {
-    border-radius: 0;
-}
-
-.floating-element.circle {
-    border-radius: 50%;
-}
-
-/* Color theme for Rajasthan */
-.rajasthan-colors-1 {
-    background-color: #FF5733; /* Vibrant Orange */
-}
-
-.rajasthan-colors-2 {
-    background-color: #DAA520; /* Golden Yellow */
-}
-
-.rajasthan-colors-3 {
-    background-color: #800000; /* Deep Red */
-}
-
-.rajasthan-colors-4 {
-    background-color: #FFD700; /* Bright Gold */
 }
 
 /* Style for activity cards and other content */
