@@ -158,6 +158,17 @@ const Carnival = () => {
                     <p className="z-10">
                         Please follow these steps to book the ticket.
                     </p>
+                    <div>
+                        <ul className="flex flex-col gap-6">
+                            <li><span className="font-bold">Step 1:</span> Click on the "Book tickets" button above</li>
+                            <li><span className="font-bold">Step 2:</span> On the next page, click the "Request to Join" button. This will open up a registration form for you to fill in your details.</li>
+                            <li><span className="font-bold">Step 3:</span> Carefully fill in all the required details in the form. These details will be used to confirm your registration and issue your event ticket. Ensure that the information entered is accurate to avoid issues later.</li>
+                            <li><span className="font-bold">Step 4:</span> On the same page on right hand side, you'll find a QR code. Scan the QR code using any payment application and pay the required amount. After completing the payment, you will receive a UTR (Unique Transaction Reference) number.</li>
+                            <li><span className="font-bold">⚠ Important: The UTR is your transaction ID. Make sure to enter it correctly in the form to confirm your payment. Double-check this information before proceeding</span></li>
+                            <li><span className="font-bold">Step 5:</span> After completing the payment and entering the UTR and other details, click the "Request to Join" button again to submit your registration.</li>
+                            <li><span className="font-bold">Step 6:</span>Hooray! You are now registered for the event. A confirmation email will be sent to your registered email address. You will receive your ticket, including a QR code, one day prior to the event. Ensure you keep this ticket safe as it will be required for entry.</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="note-box flex-1 z-10 mx-auto bg-white relative">
                     <h3 className="z-10 text-[rgba(255,21,21,1)]">Important Note</h3>
@@ -174,6 +185,14 @@ const Carnival = () => {
                             <li>9. <span className="font-bold">Event Timings:</span> Participants must arrive on time for all events. Latecomers will not be permitted to join the event once it has started.</li>
                             <li>10. Kindly cooperate with discipline committee members and the club members for a seamless experience.</li>
                         </ul>
+                        <div className="mt-5">
+                            <ul>
+                                <li className="font-bold">
+                              For technical queries,contact Garv Anand - +91 80541 82892
+                                </li>
+                                <li className="font-bold">For any other issues,contact Jitendra - +91 95882 65520, Dheeraj - +91 6367 510 083 </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
