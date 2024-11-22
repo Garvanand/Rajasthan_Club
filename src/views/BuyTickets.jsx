@@ -23,7 +23,7 @@ const BuyTickets = () => {
       {/* Flex container for iframe and QR code + Notes */}
       <div className="flex-container">
         {/* Iframe on the left side */}
-        <div className="iframe-container">
+        <div className="iframe-container z-30">
           {showForm ? (
             <iframe
               src="https://lu.ma/embed/event/evt-bK8zq68992Cmvhq/simple"
@@ -35,6 +35,7 @@ const BuyTickets = () => {
               aria-hidden="false"
               tabIndex="0"
               title="Buy Tickets Form"
+              
             />
           ) : (
             <Loading /> // Use the Loading component while the form is loading
@@ -43,12 +44,12 @@ const BuyTickets = () => {
 
         {/* QR Code and Notes on the right side */}
         <div className="right-container">
-          <div className="qr-code-container">
-            <p className="text-xl font-semibold mb-4 text-white">Scan this QR Code to Make Your Payment</p>
+          <div className="qr-code-container z-30">
+            <p className="text-xl font-semibold mb-4 text-white z-30">Scan this QR Code to Make Your Payment</p>
             <img
               src="qr.webp" // Replace with your actual QR code image path
               alt="Payment QR Code"
-              className="mx-auto w-56 h-56 rounded-lg shadow-lg border-4 border-white"
+              className="mx-auto w-56 h-56 rounded-lg shadow-lg border-4 border-white z-30"
             />
           </div>
 
