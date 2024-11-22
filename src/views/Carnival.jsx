@@ -82,12 +82,9 @@ const Carnival = () => {
     return (
         <div className=" min-h-screen min-w-[100vw] overflow-hidden"
         style={{
-            background: "linear-gradient(135deg, #ffb84d, #ffec99)",
-          }}>
+            background: "linear-gradient(135deg, #f8c471, #f39c12, #d35400)",
+            }}>
             {/* Heading */}
-            {/* <div className="mx-auto min-w-max min-h-max">
-            <img src={flags} alt="" />
-         </div> */}
             <div className="relative flex justify-center items-center pt-4 text-7xl z-10 gap-5">
                 {/* Flags in Corners */}
                 <div className=" absolute top-0 left-0 -translate-x-1/3 -translate-y-1/3 rotate-30">
@@ -97,16 +94,17 @@ const Carnival = () => {
                     <img src={flags} alt="Flags" className="w-50 flag-animation flag-hover" />
                 </div>
 
+                <div className="bg-[rgba(0,0,0,0.4)] flex justify-center items-center py-3 px-2 rounded-lg">                
                 {/* Main Heading */}
                 <h1 className="camel z-10">🐪</h1>
-                <h1 className="anton-regular text-[#f88156] animate-glow w-max z-10">
+                <h1 className="anton-regular text-[rgba(255,21,21,1)] animate-glow w-max z-10">
                     Thar Festival
                 </h1>
                 <h1 className="turban z-10">
                     <img src={Turban} className="pl-1 h-16 w-16" alt="Turban" />
                 </h1>
+                </div>
             </div>
-
 
             {/* Activities */}
             <div className="flex mt-14 z-10">
@@ -143,23 +141,44 @@ const Carnival = () => {
                     ))}
                 </div>
             </div>
-            <div>
-                <div className="flex justify-center mt-6 z-10">
+            
+            {/* Book tickets btn */}
+            <div className="flex justify-center mt-6 z-10">
                     <button
                         onClick={() => navigate("/buytickets")}
-                        className="book-tickets-btn px-8 py-3 text-lg font-bold text-white bg-[#f88156] rounded-lg shadow-lg transition-all hover:bg-[#db6c43] hover:shadow-[0_0_10px_#f88156] focus:outline-none focus:ring-2 focus:ring-[#f88156] focus:ring-offset-2 z-10 mt-10">
+                        className="book-tickets-btn px-8 py-3 text-lg font-bold text-white bg-[rgba(255,21,21,1)] rounded-lg shadow-lg transition-all hover:bg-[rgba(207,8,8,1)] hover:shadow-[0_0_10px_#f88156] focus:outline-none focus:ring-2 focus:ring-[#f88156] focus:ring-offset-2 z-10 mt-10">
                         Book Tickets
                     </button>
+            </div>
+            
+
+            <div className="instructions flex my-24">
+                <div className="steps note-box z-10 flex-1 mx-auto bg-white relative">
+                <h3 className="z-10 text-[rgba(255,21,21,1)]">Steps to Book the ticket</h3>
+                    <p className="z-10">
+                        Please follow these steps to book the ticket.
+                    </p>
                 </div>
-
+                <div className="note-box flex-1 z-10 mx-auto bg-white relative">
+                    <h3 className="z-10 text-[rgba(255,21,21,1)]">Important Note</h3>
+                    <div>
+                        <ul>
+                            <li>1. <span className="font-bold">Institution ID Cards:</span> All student participants are required to carry their Institution ID cards at all times. Entry will be denied without a valid ID.</li>
+                            <li>2. <span className="font-bold">Ticket Distribution:</span> Tickets must be booked only through the Luma portal. Tickets sent via email will be considered valid for entry. Ensure that you have booked and received your ticket via email</li>
+                            <li>3. <span className="font-bold">Ticket Requirement:</span> Carrying your ticket is mandatory for entry to each event. No entry will be allowed without the proper ticket, irrespective of the circumstances</li>
+                            <li>4. <span className="font-bold">Prohibited Substances:</span> The use, possession, or carrying of illegal substances is strictly prohibited. Any participant found in violation will face immediate expulsion from the event, along with further legal consequences.</li>
+                            <li>5. <span className="font-bold">Personal Belongings:</span> The management will not be held responsible for any loss, theft, or damage to personal belongings. Participants are advised to keep their valuables secure at all times.</li>
+                            <li>6. <span className="font-bold">Respect and Conduct:</span> All participants are expected to behave in a respectful and dignified manner. Any form of misbehavior, harassment, or disrespect towards others will result in immediate removal from the event and strict action will be taken by DSW.</li>
+                            <li>7. <span className="font-bold">Emergency Protocol:</span> In case of emergencies, please follow the instructions of event coordinators and the security staff. Failure to comply with safety protocols will result in expulsion from the event.</li>
+                            <li>8. <span className="font-bold">Photography/Recording:</span> Photography and video recording are allowed only in designated areas. Participants violating this rule may be asked to surrender their devices or leave the venue.</li>
+                            <li>9. <span className="font-bold">Event Timings:</span> Participants must arrive on time for all events. Latecomers will not be permitted to join the event once it has started.</li>
+                            <li>10. Kindly cooperate with discipline committee members and the club members for a seamless experience.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div className="note-box z-30 my-16">
-                <h3 className="z-30">Important Note</h3>
-                <p>
-                    Please make sure to fill out all the required fields before submitting the form. If you encounter any issues, contact support.
-                </p>
-            </div>
+            
         </div>
     );
 };

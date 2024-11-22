@@ -119,19 +119,18 @@
     color: white;
 }
 .note-box {
-    background-color: rgb(227, 93, 59);  /* Light yellow background */
+    /* background-color: rgb(227, 93, 59);  Light yellow background */
     color: #333; /* Dark text for better visibility */
     border: 2px solid #ffeb3b; /* Yellow border */
     border-radius: 8px; /* Rounded corners */
     padding: 16px; /* Space inside the box */
-    margin: 20px auto; /* Center the box horizontally */
-    max-width: 500px; /* Set a max width for better layout */
+    /* margin: 20px auto; Center the box horizontally */
+    max-width: 700px; /* Set a max width for better layout */
     font-family: Arial, sans-serif;
     box-shadow: 0 0 10px 4px rgba(128, 0, 0, 0.8); /* Subtle shadow for better visibility */
-   
 }
 .note-box h3 {
-    color: #800000; /* Maroon text */
+    /* color: #800000; Maroon text */
     text-shadow: 0 0 10px rgba(128, 0, 0, 0.8); /* Glowing maroon effect */
     margin-bottom: 10px; /* Space below the heading */
     font-size: 1.5rem; /* Slightly larger font size for emphasis */
