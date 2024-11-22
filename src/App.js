@@ -12,6 +12,7 @@ import Merchandise from "./views/Merchandise";
 import Companion from "./views/Companion";
 import Ongoing from "./views/Ongoing";
 import Upcoming from "./views/Upcoming";
+import Carnival from "./views/Carnival"
 
 const App = () => {
   const [isLoading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/eventdescription" element={<EventDescription />} />
         <Route path="/about-rec" element={<About />} />
         <Route path="/about-recharge" element={<Aboutrechargepage />} />
+        <Route path="/carnival" element={<Carnival />} />
         <Route path="/buytickets" element={<BuyTickets />} />
         <Route path="/companion" element={<Companion />} />
         <Route path="/companion/ongoing" element={<Ongoing />} />
