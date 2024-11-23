@@ -1,0 +1,147 @@
+/* anton-regular class to be used */
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.floating-animation {
+    animation: floatcamel 4s ease-in-out infinite;
+}
+
+@keyframes floatcamel {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* Keyframes for floating effect */
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(90deg);
+    }
+    100% {
+        transform: translateY(0) rotate(180deg);
+    }
+}
+
+/* Style for activity cards and other content */
+.activity-card {
+    perspective: 1000px;
+    width: 13rem;
+    height: 13rem;
+    position: relative;
+    margin: 0; /* Ensure no shifting occurs */
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s ease-in-out;
+}
+
+.activity-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    position: absolute;
+}
+
+.card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-front .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    background-color: #8b4513;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.note-box {
+    color: #333;
+    border: 2px solid #ffeb3b;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 700px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px 4px rgba(128, 0, 0, 0.8);
+}
+.note-box h3 {
+    text-shadow: 0 0 10px rgba(128, 0, 0, 0.8); 
+    margin-bottom: 10px; 
+    font-size: 1.5rem;
+}
+.note-box:hover {
+    box-shadow: 0 0 15px 6px rgba(255, 223, 0, 0.8);
+}
+@keyframes sway {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.flag-animation {
+    animation: sway 3s ease-in-out infinite;
+    transform-origin: top center; /* Swaying effect originates from the top */
+}
+
+.flag-hover:hover {
+    transform: scale(1.1) rotate(6deg); /* Hover interaction */
+    transition: transform 0.3s ease-in-out;
+}

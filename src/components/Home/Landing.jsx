@@ -75,11 +75,11 @@ const Landing = () => {
 
 <button
   type="button"
-  onClick={() => navigate("/buytickets")}
+  onClick={() => navigate("/carnival")}
   className="mt-5 px-6 py-3 text-white bg-[#0066ff] hover:bg-[#3399ff] duration-200 rounded-lg font-semibold shadow-lg hover:shadow-xl hover:duration-500"
 >
   <div className="main text-lg">
-    <span className="font-bold capitalize text-white">BUY TICKETS</span>
+    <span className="font-bold capitalize text-white">Explore Event</span>
   </div>
 </button>
           </div>
