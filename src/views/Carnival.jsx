@@ -14,6 +14,7 @@ import lady_pardharo from "./../assets/lady_pardharo.png"
 import thar from "./../assets/thar_mahotsav.png"
 import khamma from "./../assets/khamma.png"
 import money from "./../assets/money.png"
+import dance from "./../assets/dance.jpg"
 // Activity data
 const activityData = [
     {
@@ -46,6 +47,12 @@ const activityData = [
         image: Language,
         description: "Learn and compete in fun Rajasthani language phrases.",
     },
+    {
+        id: 6,
+        name: "Cultural Performances",
+        image: dance,
+        description: "Immerse yourself in the rhythmic elegance of Rajasthan with captivating cultural dance performances",
+    },
 ];
 
 const Carnival = () => {
@@ -61,32 +68,32 @@ const Carnival = () => {
             <div className="relative flex justify-center items-center pt-4 text-7xl z-10 gap-5">
                 {/* Flags in Corners */}
                 <div className=" absolute top-0 left-0 -translate-x-1/3 -translate-y-1/3 rotate-30">
-                    <img src={flags} alt="Flags" className="w-50" />
+                    <img src={flags} alt="Flags" className="w-50 z-10" />
                 </div>
                 <div className=" absolute top-0 right-0 translate-x-1/3 -translate-y-1/3 rotate-30">
-                    <img src={flags} alt="Flags" className="w-50" />
+                    <img src={flags} alt="Flags" className="w-50 z-10" />
                 </div>
 
-                <div className="bg-[rgba(0,0,0,0.4)] flex justify-center items-center py-3 px-2 rounded-lg h-36">                
+                <div className="bg-[rgba(0,0,0,0.4)] flex justify-center items-center py-3 px-2 rounded-lg h-36 z-20 w-[90vw] mx-auto md:w-auto">                
                 {/* Main Heading */}
-                <h1 className="camel z-10">🐪</h1>
+                <h1 className="camel z-10 hidden md:block">🐪</h1>
                 <img src={thar} className="h-36" alt="" />
                 {/* <h1 className="anton-regular text-[rgba(255,21,21,1)] animate-glow w-max z-10">
                     Thar Festival
                 </h1> */}
-                <h1 className="turban z-10">
+                <h1 className="turban z-10 hidden md:block">
                     <img src={Turban} className="pl-1 h-16 w-16" alt="Turban" />
                 </h1>
                 </div>
             </div>
 
             {/* Activities */}
-            <div className="flex mt-14 z-10">
+            <div className="flex flex-col md:flex-row mt-14 z-10">
                 <div className="activities flex-1 z-10">
                     <img
                         src={Activities}
                         alt="Activities"
-                        className="m-auto h-[400px] w-[400px] rounded-lg floating-animation"
+                        className="m-auto h-[200px] w-[200px] md:h-[400px] md:w-[400px] rounded-lg floating-animation"
                     />
                 </div>
                 <div className="activities-card flex-1 flex flex-wrap gap-4 justify-center items-center z-10">
@@ -119,7 +126,7 @@ const Carnival = () => {
             {/* Book tickets btn */}
             <div className="flex justify-center mt-10 z-10 gap-4">
                 <div className="khamma">
-                    <img src={khamma} alt="" className="h-48 pb-8" />
+                    <img src={khamma} alt="" className="h-48 pb-8 hidden md:block" />
                 </div>
                 <div className="pardharo">
                     <img src={pardharo} alt="" className="h-40" />
@@ -133,12 +140,12 @@ const Carnival = () => {
                     <img src={lady_pardharo} alt="" className="h-36 pl-3" />
                 </div>
                 <div className="money">
-                    <img src={money} alt="" className="h-40" />
+                    <img src={money} alt="" className="h-40 hidden md:block" />
                 </div>
             </div>
             
 
-            <div className="instructions flex my-24">
+            <div className="instructions flex flex-col md:flex-row my-24 gap-4 w-[95vw] mx-auto">
                 <div className="steps note-box z-10 flex-1 mx-auto bg-white relative">
                 <h3 className="z-10 text-[rgba(255,21,21,1)]">Steps to Book the ticket</h3>
                     <p className="z-10">
