@@ -63,3 +63,31 @@
   }
 
 }
+/* Ensures the image maintains the 912x1280 aspect ratio (9:13) */
+.proshow-img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Height adjusts automatically to maintain aspect ratio */
+  aspect-ratio: 9 / 13; /* Maintains the 9:13 ratio */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  border-radius: 10px; /* Optional, depending on your design */
+}
+
+/* Adjust container to hold images nicely on all screen sizes */
+.proshow-card {
+  position: relative;
+  width: 100%; /* Full width of the parent container */
+  max-width: 912px; /* Maximum width to ensure it doesn't exceed the image width */
+  height: auto;
+  overflow: hidden; /* Ensures content does not overflow the container */
+}
+
+/* Optional: Styling the text inside cards */
+.proshow-card h1,
+.proshow-card h2,
+.proshow-card h3 {
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Optional, improves readability */
+}
+
