@@ -79,7 +79,7 @@ const Landing = () => {
   className="mt-5 px-6 py-3 text-white bg-[#0066ff] hover:bg-[#3399ff] duration-200 rounded-lg font-semibold shadow-lg hover:shadow-xl hover:duration-500"
 >
   <div className="main text-lg">
-    <span className="font-bold capitalize text-white">Explore Event</span>
+    <span className="font-bold capitalize text-white">BUY TICKETS FOR THAR FESTIVAL</span>
   </div>
 </button>
           </div>
