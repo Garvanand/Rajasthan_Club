@@ -46,7 +46,7 @@ const ProShows = () => {
             src={require("../../../assets/bg-2.webp")}
           /> */}
           <img
-            src={require("../../../assets/siana.webp")}
+            src={require("../../../assets/thar.webp")}
             alt=""
             className="z-0 rounded-xl"
             style={{
