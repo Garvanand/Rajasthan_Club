@@ -15,7 +15,7 @@ const AboutREC = () => {
           className="shadow-[0_0_20px_10px_orange]"
 
           id="about-img"
-          src={require("../../assets/gallery-imgs/rec7.gif")} // Update this line with the GIF file path
+          src={require("../../assets/thar.webp")} // Update this line with the GIF file path
           alt="About REC"
         />
       </div>
@@ -26,13 +26,7 @@ const AboutREC = () => {
         </div>
 
         <p className="text-lg shadow-inner leading-loose">
-        नमस्कार, Mharo Rajasthan Club की ओर से आपको और आपके परिवार को गणेश चतुर्थी की ढेरों शुभकामनाएँ!
-
-जैसे हमारे राजस्थान की भूमि रंग-बिरंगे लोक कला और संस्कृति से भरी हुई है, वैसे ही गणपति बप्पा आपके जीवन में खुशियों और समृद्धि की हर रंगत भरें। गणेशजी की कृपा से आपकी सारी मनोकामनाएँ पूरी हों और आपके जीवन में सुख-समृद्धि की छांव हमेशा बनी रहे।
-
-साथ ही, गणपति बप्पा के आशीर्वाद से राजस्थान की खुशहाली और समृद्धि में चार चाँद लग जाएँ। आपकी हर राह हरी हो और आपके घर में सुख-शांति और उल्लास का दीप जलता रहे।
-
-गणपति बप्पा मोरया!        </p>
+        Join us for Thar Fest, a vibrant cultural celebration hosted by Mharo Rajasthan Club at the Open Air Auditorium on December 4th. Immerse yourself in the rich heritage of Rajasthan through live music, traditional dance, and delicious regional cuisine. Experience the vibrant colors, sounds, and spirit of the Thar Desert as we bring together local artists and performers for an unforgettable evening. Don't miss this opportunity to celebrate Rajasthan's unique culture with us. Book your tickets now through the link above and secure your spot for this exciting event!      </p>
         {/* Uncomment and use if you want a button */}
         {/* <button
           type="button"
