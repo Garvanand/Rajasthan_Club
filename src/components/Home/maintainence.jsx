@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       {/* Your regular app content goes here */}
-      <h1>Welcome to our website!</h1>
+      <h1>Website under maintenance</h1>
     </div>
   );
 };
