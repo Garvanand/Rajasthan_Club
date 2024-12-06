@@ -13,7 +13,7 @@ import Companion from "./views/Companion";
 import Ongoing from "./views/Ongoing";
 import Upcoming from "./views/Upcoming";
 import Carnival from "./views/Carnival";
-import MaintenancePage from "./components/MaintenancePage"; // Import the maintenance page
+import MaintenancePage from "./components/Home/MaintenancePage"; // Import the maintenance page
 
 const App = () => {
   const [isLoading, setLoading] = useState(true);
