@@ -12,15 +12,32 @@ import Merchandise from "./views/Merchandise";
 import Companion from "./views/Companion";
 import Ongoing from "./views/Ongoing";
 import Upcoming from "./views/Upcoming";
-import Carnival from "./views/Carnival"
+import Carnival from "./views/Carnival";
+import MaintenancePage from "./components/MaintenancePage"; // Import the maintenance page
 
 const App = () => {
   const [isLoading, setLoading] = useState(true);
   const [path, setPath] = useState("/");
+  const [isMaintenance, setIsMaintenance] = useState(false); // State to manage maintenance mode
   const location = useLocation();
+
   useEffect(() => {
     setPath(location.pathname);
   }, [path, isLoading, location.pathname]);
+
+  // You can control the maintenance mode here (can be based on an environment variable or state)
+  useEffect(() => {
+    // Example: If you want to activate maintenance mode based on an environment variable
+    // setIsMaintenance(process.env.REACT_APP_MAINTENANCE === 'true');
+    
+    // Alternatively, you can toggle it manually here for testing:
+    setIsMaintenance(false); // Set to true to display the maintenance page
+  }, []);
+
+  if (isMaintenance) {
+    return <MaintenancePage />; // Display maintenance page when in maintenance mode
+  }
+
   return (
     <div>
       <Routes>
