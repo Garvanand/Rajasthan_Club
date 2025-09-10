@@ -6,7 +6,7 @@ const Spotlight = () => {
       <div className="main text-6xl md:7xl mb-5 text-white">
         <span className="font-bold text-5xl capitalize text-white">OUR TEAM</span>
       </div>
-      <div className="proshow-cards">
+{/*       <div className="proshow-cards">
       <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
@@ -26,8 +26,8 @@ const Spotlight = () => {
               PRESIDENT
             </h1>
           </div>
-        </div>
-        <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
+        </div> */}
+{/*         <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
             alt="background-jonita"
@@ -46,7 +46,7 @@ const Spotlight = () => {
               VICE-PRESIDENT
             </h1>
           </div>
-        </div>
+        </div> */}
         <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
